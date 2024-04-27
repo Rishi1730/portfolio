@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rushikesh Gangishetty - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        /* CSS styles */
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0d0d0d;
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        header {
+            background-color: #0d0d0d;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+        }
+
+        nav {
+            background-color: #0d0d0d;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ff0000;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: rgba(13, 13, 13, 0.8);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+        }
+
+        footer {
+            background-color: #0d0d0d;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+        }
+
+        h1, h2, h3 {
+            animation: blinking 1s infinite;
+        }
+
+        @keyframes blinking {
+            0% { opacity: 1; }
+            50% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        .project-card {
+            background-color: #1f1f1f;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        }
+
+        .project-card h3 {
+            color: #ff0000;
+        }
+
+        .project-card p {
+            color: #fff;
+        }
+
+        .project-card a {
+            color: #ff0000;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .project-card a:hover {
+            color: #fff;
+        }
+        table {
+            border-collapse: collapse;
+            width: 60%;
+            background-color: #0a0a0a;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 3px;
+            text-align: left;
+        }
+
+        th {
+            color: rgb(165, 42, 93);
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rushikesh Gangishetty</h1>
+        <p>Game Developer | UI/UX Designer | Technology Enthusiast</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#timeline">Timeline</a>
+        <a href="#knowledge-sharing">knowledge sharing</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section>
+        <h2 id="about">About Me</h2>
+        <p>Hello, I'm Rushikesh Gangishetty. I'm passionate about game development and UI/UX design. I strive to create immersive gaming experiences and intuitive user interfaces. With a deep interest in technology, I'm always exploring new possibilities and pushing the boundaries of creativity.</p>
+    </section>
+    <section>
+        <h2>Experience</h2>
+        <div class="project-card">
+            <h3>Lead Game Developer, GameStudios</h3>
+            <p>Designed and developed AAA title games for various platforms, focusing on gameplay mechanics and graphics optimization.</p>
+        </div>
+        <div class="project-card">
+            <h3>UI/UX Designer, DesignWorks</h3>
+            <p>Collaborated with cross-functional teams to create visually stunning and user-friendly interfaces for games and applications.</p>
+        </div>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML 5</li>
+            <li>CSS</li>
+            <li>UI/UX Design</li>
+            <li>JavaScript</li>
+            <li>Front-end Development</li>
+            <li>Web Content Management Systems (CMS)</li>
+            <li>User Interface Prototyping</li>
+        </ul>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>Project X: Open World RPG</h3>
+            <p>Developed an open-world role-playing game with immersive storytelling and dynamic gameplay elements.</p>
+        </div>
+        <div class="project-card">
+            <h3>Project Y: Mobile Game App</h3>
+            <p>Designed and developed a mobile game app with addictive gameplay and captivating visuals, resulting in millions of downloads.</p>
+        </div>
+    </section>
+    <section id="timeline">
+        <div class="container">
+            <h1>Project Timeline</h1>
+            <table>
+                <tr>
+                    <th>Task</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                    <th>Estimated Duration</th>
+                </tr>
+                <tr>
+                    <td>Create wireframes/mockups</td>
+                    <td>April 8</td>
+                    <td>April 11</td>
+                    <td>4 days</td>
+                </tr>
+                <tr>
+                    <td>Write content for different sections</td>
+                    <td>April 12</td>
+                    <td>April 15</td>
+                    <td>4 days</td>
+                </tr>
+                <tr>
+                    <td>Code the website</td>
+                    <td>April 16</td>
+                    <td>April 19</td>
+                    <td>4 days</td>
+                </tr>
+                <tr>
+                    <td>Test website functionality</td>
+                    <td>April 20</td>
+                    <td>April 24</td>
+                    <td>5 days</td>
+                </tr>
+                <tr>
+                    <td>Gather feedback and make revisions</td>
+                    <td>April 25</td>
+                    <td>April 26</td>
+                    <td>2 days</td>
+                </tr>
+                <tr>
+                    <td>Launch the website</td>
+                    <td>April 27</td>
+                    <td>April 28</td>
+                    <td>2 days</td>
+                </tr>
+            </table>
+        </section>
+        <section id="knowledge-sharing">
+            <h1>Knowledge Sharing</h1>
+            <h2>Topics</h2>
+            <ul>
+                <li><a href="https://www.hackerdojo.com/">Advanced Exploitation Techniques</a></li>
+                <li><a href="https://www.cyberunderground.com/advice">Cryptocurrency Laundering Insights</a></li>
+                <li><a href="https://www.undergroundbusiness.com/">Black Hat Strategies</a></li>
+                <li><a href="#">Identity Theft Methods</a></li>
+                <li><a href="#">Dark Web Marketplace Guide</a></li>
+            </ul>
+    
+            <h2>Featured Content</h2>
+            <div class="content-box">
+                <h3>Advanced Exploitation Techniques</h3>
+                <p>Explore step-by-step tutorials on various hacking techniques to elevate your expertise.</p>
+                <p><a href="https://www.udemy.com/course/advanced-hacking-and-penetration-testing/" style="color: #ff6600;">Advanced Hacking and Penetration Testing</a></p>
+                <p><a href="https://www.freecodecamp.org/news/ethical-hacking-full-course/" style="color: #ff6600;">Ethical Hacking Full Course</a></p>
+                <p><a href="https://digital-photography-school.com/photography-for-beginners/" style="color: #ff6600;">Web Application Penetration Testing</a></p>
+            </div>
+    
+            <div class="content-box">
+                <h3>Cryptocurrency Laundering Insights</h3>
+                <p>Discover practical tips and insights to launder cryptocurrency effectively.</p>
+                <p><a href="https://www.cyberunderground.com/articles/how-to-launder-crypto-safely" style="color: #ff6600;">How to Launder Crypto Safely</a></p>
+                <p><a href="https://www.cyberunderground.com/articles/the-art-of-cryptocurrency-laundering" style="color: #ff6600;">The Art of Cryptocurrency Laundering</a></p>
+                <p><a href="https://www.cyberunderground.com/articles/avoiding-crypto-trail" style="color: #ff6600;">Avoiding the Crypto Trail</a></p>
+            </div>
+    
+            <div class="content-box">
+                <h3>Black Hat Strategies</h3>
+                <p>Stay informed about the latest trends and strategies shaping the underground world.</p>
+                <p><a href="https://www.undergroundbusiness.com/articles/hacking-the-mainframe" style="color: #ff6600;">Hacking the Mainframe</a></p>
+                <p><a href="https://www.undergroundbusiness.com/articles/social-engineering-tactics" style="color: #ff6600;">Social Engineering Tactics</a></p>
+                <p><a href="https://www.undergroundbusiness.com/articles/phishing-for-data" style="color: #ff6600;">Phishing for Data</a></p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: rushikesh.g@outlook.com</p>
+        <p>Phone: +1 (984) 456-8519</p>
+        <p>GitHub: <a href="https://github.com/rushikesh-g" target="_blank">https://github.com/rushikesh-g</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/rushikesh-g" target="_blank">https://www.linkedin.com/in/rushikesh-g</a></p>
+        <p>Location: City, Country</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Rushikesh Gangishetty. All rights reserved.</p>
+    </footer>
+</body>
+</html>
